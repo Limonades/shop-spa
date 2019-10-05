@@ -1,0 +1,13 @@
+@import "~normalize.css";
+@import "../fonts/font-icons/style.css";
+@import "./fonts";
+@import "./reset";
+@import "./typography";
+@import "./variables";
+
+body {
+    color: $color-black;
+    font-family: $font-1;
+    font-weight: 300;
+    font-size: 14px;
+}
