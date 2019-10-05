@@ -1,13 +1,17 @@
 .products {
+    padding-top: 35px;
+
     &__container {
         display: flex;
+        padding-left: 0;
     }
 
     &__nav-wrap {
-        width: 30%;
+        width: 16%;
+        flex-shrink: 0;
     }
 
     &__products-wrap {
-        width: 70%;
+        width: 84%;
     }
 }

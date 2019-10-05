@@ -1,5 +1,96 @@
 @import "../../assets/scss/variables";
 
-.products-nav {
-    display: block;
+.products-sorter {
+    &__toggle {
+        font-size: 14px;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        padding-left: 44px;
+        margin-bottom: 16px;
+
+        &:hover {
+            & .products-sorter__toggle-txt {
+                &::after {
+                    width: 100%;
+                }
+            }
+        }
+
+        &.--open {
+            & + .products-sorter__list {
+                visibility: visible;
+                opacity: 1;
+            }
+
+            & .products-sorter__toggle-icon {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    &__toggle-txt {
+        margin-right: 12px;
+        position: relative;
+        padding: 2px 0;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 1px;
+            transition: width 0.3s;
+            background-color: $color-black;
+        }
+    }
+
+    &__toggle-icon {
+        font-size: 7px;
+    }
+
+    &__list {
+        padding: 20px 16px;
+        width: 100%;
+        max-width: 200px;
+        border: 1px solid $color-black;
+        text-align: right;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.3s, opacity 0.3s;
+    }
+
+    &__item {
+        margin-bottom: 16px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__btn {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 300;
+        position: relative;
+        padding: 2px 0;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0px;
+            width: 0;
+            height: 1px;
+            transition: width 0.3s;
+            background-color: $color-black;
+        }
+
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
 }

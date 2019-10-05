@@ -7,20 +7,20 @@ class ProductsNav extends React.Component {
       <nav className='products-nav'>
         <ul className='products-nav__list'>
           <li className='products-nav__item'>
-            <a className='products-nav__link' href="/">
-              nav item
+            <a className='products-nav__link --active' href="/">
+              Все
             </a>
           </li>
 
           <li className='products-nav__item'>
             <a className='products-nav__link' href="/">
-              nav item
+              Плащи
             </a>
           </li>
 
           <li className='products-nav__item'>
             <a className='products-nav__link' href="/">
-              nav item
+              Кроссовки
             </a>
           </li>
         </ul>

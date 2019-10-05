@@ -10,25 +10,26 @@ class ProductsGrid extends React.Component {
             <picture className='products-grid__card-img'>
               <img src="http://placekitten.com/200/300" alt=""/>
             </picture>
-            <h3 className='products-grid__category'>
-              rybashki
-            </h3>
-            <p className='products-grid__name'>
-              name
-            </p>
-            <div className='products-grid__info-wrap'>
-              <h2 className='products-grid__price'>
-                3grn
-              </h2>
-              <span>
-                na sklade net nihera
-              </span>
+            <div className='products-grid__slider'>
+              <div className='products-grid__slide' />
+            </div>
+            <div className='products-grid__card-content'>
+              <h3 className='products-grid__category'>
+                РУБАШКИ
+              </h3>
+              <p className='products-grid__name'>
+                Рубашка с принтом
+              </p>
+              <div className='products-grid__info-wrap'>
+                <h2 className='products-grid__price'>
+                  $ 120
+                </h2>
+                <span className='products-grid__qty'>
+                  на складе: 11
+                </span>
+              </div>
             </div>
           </a>
-
-          <div className='products-grid__slider'>
-            <div className='products-grid__slide' />
-          </div>
         </li>
 
         <li className='products-grid__card'>
@@ -36,25 +37,26 @@ class ProductsGrid extends React.Component {
             <picture className='products-grid__card-img'>
               <img src="http://placekitten.com/200/300" alt=""/>
             </picture>
-            <h3 className='products-grid__category'>
-              rybashki
-            </h3>
-            <p className='products-grid__name'>
-              name
-            </p>
-            <div className='products-grid__info-wrap'>
-              <h2 className='products-grid__price'>
-                3grn
-              </h2>
-              <span>
-                na sklade net nihera
-              </span>
+            <div className='products-grid__slider'>
+              <div className='products-grid__slide' />
+            </div>
+            <div className='products-grid__card-content'>
+              <h3 className='products-grid__category'>
+                РУБАШКИ
+              </h3>
+              <p className='products-grid__name'>
+                Рубашка с принтом Рубашка с принтом
+              </p>
+              <div className='products-grid__info-wrap'>
+                <h2 className='products-grid__price'>
+                  $ 120
+                </h2>
+                <span className='products-grid__qty'>
+                  на складе: 11
+                </span>
+              </div>
             </div>
           </a>
-
-          <div className='products-grid__slider'>
-            <div className='products-grid__slide' />
-          </div>
         </li>
 
         <li className='products-grid__card'>
@@ -62,25 +64,53 @@ class ProductsGrid extends React.Component {
             <picture className='products-grid__card-img'>
               <img src="http://placekitten.com/200/300" alt=""/>
             </picture>
-            <h3 className='products-grid__category'>
-              rybashki
-            </h3>
-            <p className='products-grid__name'>
-              name
-            </p>
-            <div className='products-grid__info-wrap'>
-              <h2 className='products-grid__price'>
-                3grn
-              </h2>
-              <span>
-                na sklade net nihera
-              </span>
+            <div className='products-grid__slider'>
+              <div className='products-grid__slide' />
+            </div>
+            <div className='products-grid__card-content'>
+              <h3 className='products-grid__category'>
+                РУБАШКИ
+              </h3>
+              <p className='products-grid__name'>
+                Рубашка с принтом
+              </p>
+              <div className='products-grid__info-wrap'>
+                <h2 className='products-grid__price'>
+                  $ 120
+                </h2>
+                <span className='products-grid__qty'>
+                  на складе: 11
+                </span>
+              </div>
             </div>
           </a>
+        </li>
 
-          <div className='products-grid__slider'>
-            <div className='products-grid__slide' />
-          </div>
+        <li className='products-grid__card'>
+          <a className='products-grid__link' href="/">
+            <picture className='products-grid__card-img'>
+              <img src="http://placekitten.com/200/300" alt=""/>
+            </picture>
+            <div className='products-grid__slider'>
+              <div className='products-grid__slide' />
+            </div>
+            <div className='products-grid__card-content'>
+              <h3 className='products-grid__category'>
+                Рубашка с принтом
+              </h3>
+              <p className='products-grid__name'>
+                Рубашка с принтом
+              </p>
+              <div className='products-grid__info-wrap'>
+                <h2 className='products-grid__price'>
+                  $ 120
+                </h2>
+                <span className='products-grid__qty'>
+                  на складе: 11
+                </span>
+              </div>
+            </div>
+          </a>
         </li>
 
       </ul>

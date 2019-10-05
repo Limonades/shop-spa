@@ -2,4 +2,50 @@
 
 .products-nav {
     display: block;
+    padding-left: 44px;
+
+    &__list {
+        margin-bottom: 50px;
+    }
+
+    &__item {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__link {
+        font-size: 12px;
+        line-height: 14px;
+        color: $color-txt-1;
+        text-transform: uppercase;
+        position: relative;
+        padding: 2px 0;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0px;
+            width: 0;
+            height: 1px;
+            transition: width 0.3s;
+            background-color: $color-black;
+        }
+
+        &:hover {
+            &:not(.--active) {
+                &::after {
+                    width: 100%;
+                }
+            }
+        }
+
+        &.--active {
+            font-weight: 500;
+            pointer-events: none;
+        }
+    }
 }
