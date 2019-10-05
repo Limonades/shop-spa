@@ -1,0 +1,25 @@
+@import "./assets/scss/variables";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: $color-black;
+    font-family: $font-1;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
