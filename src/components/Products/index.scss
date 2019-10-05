@@ -1,0 +1,13 @@
+.products {
+    &__container {
+        display: flex;
+    }
+
+    &__nav-wrap {
+        width: 30%;
+    }
+
+    &__products-wrap {
+        width: 70%;
+    }
+}

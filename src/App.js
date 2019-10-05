@@ -2,18 +2,18 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./assets/scss/index.scss";
 import "./App.scss";
-import { Header } from "./components";
-import { Content } from "./components";
+import { HomePage } from "./components";
+import { ProductPage } from "./components";
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/" exact>
-          <Header />
+          <HomePage />
         </Route>
         <Route path="/product/:id">
-          <Content />
+          <ProductPage />
         </Route>
       </Switch>
     </Router>
