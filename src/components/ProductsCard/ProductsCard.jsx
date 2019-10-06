@@ -31,11 +31,11 @@ class ProductsCard extends React.Component {
     return (
       <li className='products-grid__card'>
         <Link className='products-grid__link' to={"/1"}>
-          <div>
+          <div className='products-grid__card-img-wrap'>
             <picture className='products-grid__card-img'>
               <img src={this.image} alt={`${title}`} />
             </picture>
-            <div className='products-grid__slider' onClick={this.handleClick}>
+            <div className='products-grid__slider-wrap' onClick={this.handleClick}>
               <ProductSlider images={thumbnail} setTempImage={this.setTempImage}/>
             </div>
           </div>

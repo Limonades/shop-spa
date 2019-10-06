@@ -11,6 +11,7 @@ class Api {
 			method: 'GET',
 			headers: this.defaultHeaders
 		};
+
 		return fetch(url, options)
 	}
 }
