@@ -4,19 +4,25 @@ import "./assets/scss/index.scss";
 import "./App.scss";
 import { HomePage } from "./components";
 import { ProductPage } from "./components";
+import { Provider } from 'react-redux';
+import configureStore from './store'
+
+const store = configureStore();
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" exact>
-          <HomePage />
-        </Route>
-        <Route path="/product/:id">
-          <ProductPage />
-        </Route>
-      </Switch>
-    </Router>
+    <Provider store={store}>
+      <Router>
+        <Switch>
+          <Route path="/" exact>
+            <HomePage />
+          </Route>
+          <Route path="/product/:id">
+            <ProductPage />
+          </Route>
+        </Switch>
+      </Router>
+    </Provider>
   );
 }
 

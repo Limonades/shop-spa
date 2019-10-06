@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "price": "320",
+    "category": {
+      "id": "3",
+      "name": "Рубашки"
+    },
+    "title": "Рубашка на пуговицах",
+    "count": "20",
+    "createdTimestamp": "1562716800",
+    "image": "./server/img1.png",
+    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+  },
+  {
+    "id": "2",
+    "price": "170",
+    "category": {
+      "id": "3",
+      "name": "Рубашки"
+    },
+    "title": "Рубашка с принтом",
+    "count": "11",
+    "createdTimestamp": "1514764800",
+    "image": "./server/img2.png",
+    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+  },
+  {
+    "id": "3",
+    "price": "240",
+    "category": {
+      "id": "2",
+      "name": "Обувь"
+    },
+    "title": "Кроссовки",
+    "count": "194",
+    "createdTimestamp": "1570233600",
+    "image": "./server/img3.png",
+    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+  },
+  {
+    "id": "4",
+    "price": "1240",
+    "category": {
+      "id": "3",
+      "name": "Рубашки"
+    },
+    "title": "Куртка-рубашка с карманами",
+    "count": "11",
+    "createdTimestamp": "1483228800",
+    "image": "./server/img4.png",
+    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+  },
+  {
+    "id": "5",
+    "price": "390",
+    "category": {
+      "id": "3",
+      "name": "Рубашки"
+    },
+    "title": "Кроссовки с пряжками",
+    "count": "11",
+    "createdTimestamp": "1570233600",
+    "image": "./server/img5.png",
+    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+  },
+  {
+    "id": "6",
+    "price": "647",
+    "category": {
+      "id": "3",
+      "name": "Рубашки"
+    },
+    "title": "Укороченные зауженные брюки",
+    "count": "7",
+    "createdTimestamp": "1570320000",
+    "image": "./server/img6.png",
+    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+  }
+]
