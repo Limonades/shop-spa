@@ -6,3 +6,4 @@ export * from './ProductPage';
 export * from './ProductsNav';
 export * from './ProductsSorter';
 export * from './ProductsGrid';
+export * from './ProductsCard';
