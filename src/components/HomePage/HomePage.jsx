@@ -1,7 +1,6 @@
-import * as React from "react";
-import "./index.scss";
-import { Header } from "../";
-import { Content } from "../";
+import * as React from 'react';
+import './index.scss';
+import { Header, Content } from '..';
 
 class HomePage extends React.Component {
   render() {

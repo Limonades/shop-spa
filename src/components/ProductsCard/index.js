@@ -1,1 +1,1 @@
-export { default as ProductsCard } from "./ProductsCard.jsx";
+export { default as ProductsCard } from './ProductsCard.jsx';

@@ -1,11 +1,11 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./assets/scss/index.scss";
-import "./App.scss";
-import { HomePage } from "./components";
-import { ProductPage } from "./components";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './assets/scss/index.scss';
+import './App.scss';
 import { Provider } from 'react-redux';
-import configureStore from './store'
+import { HomePage, ProductPage } from './components';
+
+import configureStore from './store';
 
 const store = configureStore();
 

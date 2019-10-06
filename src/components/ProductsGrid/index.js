@@ -1,1 +1,1 @@
-export { default as ProductsGrid } from "./ProductsGrid.jsx";
+export { default as ProductsGrid } from './ProductsGrid.jsx';

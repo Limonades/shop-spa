@@ -1,1 +1,1 @@
-export { default as ProductsNav } from "./ProductsNav.jsx";
+export { default as ProductsNav } from './ProductsNav.jsx';
