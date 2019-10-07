@@ -4,11 +4,14 @@
     &__container {
         display: flex;
         padding-left: 0;
+        align-items: flex-start;
     }
 
     &__nav-wrap {
         width: 16%;
         flex-shrink: 0;
+        position: sticky;
+        top: 30px;
     }
 
     &__products-wrap {

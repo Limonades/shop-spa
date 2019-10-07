@@ -10,7 +10,6 @@
     &__card-img {
         width: 100%;
         display: flex;
-        margin-bottom: 16px;
         height: 100%;
 
         & img {
@@ -26,7 +25,7 @@
         position: relative;
         display: flex;
         justify-content: center;
-        align-items: center;
+        margin-bottom: 16px;
     }
 
     &__link {
