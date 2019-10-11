@@ -22,9 +22,7 @@ JavaScript library - ReactJS
 
 State management - Redux
 
-
 Carousel - React-slick
-
 
 Preprocessor - SASS (SCSS)
 
