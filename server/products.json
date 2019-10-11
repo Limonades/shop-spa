@@ -9,8 +9,17 @@
     "title": "Рубашка на пуговицах",
     "count": "20",
     "createdTimestamp": "1562716800",
-    "image": "./server/img1.png",
-    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+    "image": "/server/img1.png",
+    "thumbnail": [
+      "/server/img1.png",
+      "/server/img2.png",
+      "/server/img3.png",
+      "/server/img4.png",
+      "/server/img5.png",
+      "/server/img6.png"
+    ],
+    "sizes": ["S", "M", "L"],
+    "description": "<p>Рубашка на пуговицах от <b>Yohji Yamamoto</b> (Йоджи Ямамото). Классический воротник, застежка на пуговицах спереди, нагрудный карман, удлиненная модель, прошитые панели, длинные рукава и манжеты на пуговицах.</p><p>Рост модели 1,88 м, надет размер 2</p><p>Образ модели дополнен: Yohji Yamamoto широкие укороченные брюки, Converse кроссовки 'One Star'</p>"
   },
   {
     "id": "2",
@@ -22,8 +31,17 @@
     "title": "Рубашка с принтом",
     "count": "11",
     "createdTimestamp": "1514764800",
-    "image": "./server/img2.png",
-    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+    "image": "/server/img2.png",
+    "thumbnail": [
+      "/server/img1.png",
+      "/server/img2.png",
+      "/server/img3.png",
+      "/server/img4.png",
+      "/server/img5.png",
+      "/server/img6.png"
+    ],
+    "sizes": ["S", "M", "L"],
+    "description": "<p>Рубашка на пуговицах от <b>Yohji Yamamoto</b> (Йоджи Ямамото). Классический воротник, застежка на пуговицах спереди, нагрудный карман, удлиненная модель, прошитые панели, длинные рукава и манжеты на пуговицах.</p><p>Рост модели 1,88 м, надет размер 2</p><p>Образ модели дополнен: Yohji Yamamoto широкие укороченные брюки, Converse кроссовки 'One Star'</p>"
   },
   {
     "id": "3",
@@ -35,8 +53,17 @@
     "title": "Кроссовки",
     "count": "194",
     "createdTimestamp": "1570233600",
-    "image": "./server/img3.png",
-    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+    "image": "/server/img3.png",
+    "thumbnail": [
+      "/server/img1.png",
+      "/server/img2.png",
+      "/server/img3.png",
+      "/server/img4.png",
+      "/server/img5.png",
+      "/server/img6.png"
+    ],
+    "sizes": ["S", "M", "L"],
+    "description": "<p>Рубашка на пуговицах от <b>Yohji Yamamoto</b> (Йоджи Ямамото). Классический воротник, застежка на пуговицах спереди, нагрудный карман, удлиненная модель, прошитые панели, длинные рукава и манжеты на пуговицах.</p><p>Рост модели 1,88 м, надет размер 2</p><p>Образ модели дополнен: Yohji Yamamoto широкие укороченные брюки, Converse кроссовки 'One Star'</p>"
   },
   {
     "id": "4",
@@ -48,8 +75,17 @@
     "title": "Куртка-рубашка с карманами",
     "count": "11",
     "createdTimestamp": "1483228800",
-    "image": "./server/img4.png",
-    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+    "image": "/server/img4.png",
+    "thumbnail": [
+      "/server/img1.png",
+      "/server/img2.png",
+      "/server/img3.png",
+      "/server/img4.png",
+      "/server/img5.png",
+      "/server/img6.png"
+    ],
+    "sizes": ["S", "M", "L"],
+    "description": "<p>Рубашка на пуговицах от <b>Yohji Yamamoto</b> (Йоджи Ямамото). Классический воротник, застежка на пуговицах спереди, нагрудный карман, удлиненная модель, прошитые панели, длинные рукава и манжеты на пуговицах.</p><p>Рост модели 1,88 м, надет размер 2</p><p>Образ модели дополнен: Yohji Yamamoto широкие укороченные брюки, Converse кроссовки 'One Star'</p>"
   },
   {
     "id": "5",
@@ -61,8 +97,17 @@
     "title": "Кроссовки с пряжками",
     "count": "11",
     "createdTimestamp": "1570233600",
-    "image": "./server/img5.png",
-    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+    "image": "/server/img5.png",
+    "thumbnail": [
+      "/server/img1.png",
+      "/server/img2.png",
+      "/server/img3.png",
+      "/server/img4.png",
+      "/server/img5.png",
+      "/server/img6.png"
+    ],
+    "sizes": ["S", "M", "L"],
+    "description": "<p>Рубашка на пуговицах от <b>Yohji Yamamoto</b> (Йоджи Ямамото). Классический воротник, застежка на пуговицах спереди, нагрудный карман, удлиненная модель, прошитые панели, длинные рукава и манжеты на пуговицах.</p><p>Рост модели 1,88 м, надет размер 2</p><p>Образ модели дополнен: Yohji Yamamoto широкие укороченные брюки, Converse кроссовки 'One Star'</p>"
   },
   {
     "id": "6",
@@ -74,7 +119,16 @@
     "title": "Укороченные зауженные брюки",
     "count": "7",
     "createdTimestamp": "1570320000",
-    "image": "./server/img6.png",
-    "thumbnail": ["./server/img1.png", "./server/img2.png", "./server/img3.png", "./server/img4.png", "./server/img5.png", "./server/img6.png"]
+    "image": "/server/img6.png",
+    "thumbnail": [
+      "/server/img1.png",
+      "/server/img2.png",
+      "/server/img3.png",
+      "/server/img4.png",
+      "/server/img5.png",
+      "/server/img6.png"
+    ],
+    "sizes": ["S", "M", "L"],
+    "description": "<p>Рубашка на пуговицах от <b>Yohji Yamamoto</b> (Йоджи Ямамото). Классический воротник, застежка на пуговицах спереди, нагрудный карман, удлиненная модель, прошитые панели, длинные рукава и манжеты на пуговицах.</p><p>Рост модели 1,88 м, надет размер 2</p><p>Образ модели дополнен: Yohji Yamamoto широкие укороченные брюки, Converse кроссовки 'One Star'</p>"
   }
 ]
