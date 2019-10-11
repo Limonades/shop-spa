@@ -53,27 +53,40 @@ class ProductPage extends React.Component {
         {selectedItem ? (
           <>
             <Header />
-            <form className="container" onSubmit={this.handleSubmit}>
-              <div className="image">
-                <img src="http://placekitten.com/450/800" alt="somealt" />
+            <form className="product-page__container container" onSubmit={this.handleSubmit}>
+              <div className="product-page__photo-wrap">
+                <img src={selectedItem.image} alt="product" />
               </div>
-              <div className="description">
-                <Link to="/">Назад</Link>
-                <div>{selectedItem.category.name}</div>
-                <div>{selectedItem.title}</div>
-                <select onChange={this.handleChange}>
-                  <option value="" defaultValue>
-                    Размер
-                  </option>
-                  {selectedItem.sizes.map((selectedSize, index) => (
-                    <option key={index} value={selectedSize}>
-                      {selectedSize}
-                    </option>
-                  ))}
-                </select>
-                <button type="submit" disabled={!size}>
-                  В Корзину
-                </button>
+              <div className="product-page__description-wrap">
+                <Link class="product-page__back-btn" to="/">
+                  <i className="icon-caret-left-thin" />
+                  <span>Назад</span>
+                </Link>
+                <div className="product-page__info-wrap">
+                  <h3 className="product-page__category">{selectedItem.category.name}</h3>
+                  <h2 className="product-page__name">{selectedItem.title}</h2>
+                  <div className="product-page__attr-wrap">
+                    <div className="product-page__form-el-wrap">
+                      <select onChange={this.handleChange}>
+                        <option value="" defaultValue>
+                          Размер
+                        </option>
+                        {selectedItem.sizes.map((selectedSize, index) => (
+                          <option key={index} value={selectedSize}>
+                            {selectedSize}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                    <button
+                      className="product-page__form-el-wrap product-page__buy-btn"
+                      type="submit"
+                      disabled={!size}
+                    >
+                      В Корзину
+                    </button>
+                  </div>
+                </div>
                 <div dangerouslySetInnerHTML={createMarkup(selectedItem.description)} />
               </div>
             </form>

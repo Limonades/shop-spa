@@ -39,7 +39,7 @@ class Header extends React.Component {
             </div>
           </div>
         </div>
-        {isOpen && <Cart />}
+        {isOpen && <Cart cartToggle={this.handleClick} isEmpty={cart} />}
       </header>
     );
   }

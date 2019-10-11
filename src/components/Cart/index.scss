@@ -1,2 +1,141 @@
 @import "../../assets/scss/variables";
 
+.cart {
+    position: fixed;
+    width: 340px;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: $color-bg-2;
+    color: $color-white;
+    z-index: 100;
+    padding: 142px 0 40px;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 140px;
+        height: 140px;
+    }
+
+    &__close-btn {
+        position: absolute;
+        top: 38px;
+        right: 30px;
+        transition: opacity 0.3s ease;
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+
+        &:hover {
+            opacity: .6;
+        }
+    }
+
+    &__product-item {
+        padding: 20px 40px;
+        border-bottom: 1px solid #424242;
+        display: flex;
+        align-items: center;
+
+        &:first-child {
+            border-top: 1px solid #424242;
+        }
+    }
+
+    &__product-img {
+        flex-shrink: 0;
+        margin-right: 16px;
+
+        img {
+            width: 84px;
+            height: 84px;
+            object-fit: cover;
+        }
+    }
+
+    &__product-title {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 6px;
+    }
+
+    &__product-info-wrap {
+        width: 100%;
+    }
+
+    &__product-qty-info {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            margin: 0 4px;
+            font-weight: 500;
+        }
+    }
+
+    &__product-qty-btn {
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        border: 1px solid transparent;
+        width: 20px;
+        height: 20px;
+        transition: border 0.3s ease;
+
+        &:hover {
+            border: 1px solid white;
+        }
+    }
+
+    &__product-list {
+        max-height: 50vh;
+        overflow: scroll;
+        margin-bottom: 40px;
+    }
+
+    &__total-info {
+        padding: 0 40px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 0;
+        }
+    }
+
+    &__buy-btn-wrap {
+        padding: 0 40px;
+        margin-top: auto;
+
+        button {
+            padding: 22px;
+            border: 2px solid $color-white;
+            text-transform: uppercase;
+            color: $color-white;
+            font-size: 16px;
+            line-height: 19px;
+            width: 100%;
+            font-weight: 500;
+            transition: background-color 0.3s, color 0.3s;
+
+            &:hover {
+                background-color: $color-white;
+                color: $color-bg-2;
+            }
+        }
+    }
+
+    &__empty-msg {
+        padding: 40px;
+    }
+}
