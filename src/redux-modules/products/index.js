@@ -77,8 +77,10 @@ export const products = (state = initialState, action) => {
           items: [...state.items].sort((a, b) => b.createdTimestamp - a.createdTimestamp),
         };
       }
-
       return { ...state };
+
+    case types.SELECT_PRODUCT:
+      return { ...state, selectedId: action.payload };
 
     default:
       return state;

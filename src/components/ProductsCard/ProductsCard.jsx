@@ -1,7 +1,9 @@
 import * as React from 'react';
 import './index.scss';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 import { ProductSlider } from '../ProductSlider';
+import { selectProduct } from '../../redux-modules/products/actions';
 
 class ProductsCard extends React.Component {
   constructor(props) {
@@ -15,9 +17,11 @@ class ProductsCard extends React.Component {
   get image() {
     const { image } = this.props;
     const { tempImage } = this.state;
+
     if (tempImage) {
       return tempImage;
     }
+
     return image || 'http://placekitten.com/200/30';
   }
 
@@ -30,11 +34,15 @@ class ProductsCard extends React.Component {
   };
 
   render() {
-    const { title, price, category, count, thumbnail, id } = this.props;
+    const { title, price, category, count, thumbnail, id, selectCurrentProduct } = this.props;
 
     return (
       <li className="products-grid__card">
-        <Link className="products-grid__link" to={`/product/${id}`}>
+        <Link
+          className="products-grid__link"
+          to={`/product/${id}`}
+          onClick={() => selectCurrentProduct(id)}
+        >
           <div className="products-grid__card-img-wrap">
             <picture className="products-grid__card-img">
               <img src={this.image} alt={`${title}`} />
@@ -58,4 +66,11 @@ class ProductsCard extends React.Component {
   }
 }
 
-export default ProductsCard;
+const mapDispatchToProps = dispatch => ({
+  selectCurrentProduct: id => dispatch(selectProduct(id)),
+});
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(ProductsCard);

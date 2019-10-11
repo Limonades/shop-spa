@@ -7,3 +7,4 @@ export * from './ProductsNav';
 export * from './ProductsSorter';
 export * from './ProductsGrid';
 export * from './ProductsCard';
+export * from './Cart';

@@ -1,14 +1,15 @@
 import * as React from 'react';
+import { connect } from 'react-redux';
 import { ProductsCard } from '..';
 import './index.scss';
 import { fetchProducts } from '../../redux-modules/products/actions';
-import { connect } from 'react-redux';
 
 class ProductsGrid extends React.Component {
   componentDidMount() {
-    const { getProducts } = this.props;
-
-    getProducts();
+    const { getProducts, products } = this.props;
+    if (products.length === 0) {
+      getProducts();
+    }
   }
 
   get products() {

@@ -47,3 +47,8 @@ export const sortItems = name => ({
   type: types.SORT_PRODUCTS,
   payload: name,
 });
+
+export const selectProduct = id => ({
+  type: types.SELECT_PRODUCT,
+  payload: id,
+});
